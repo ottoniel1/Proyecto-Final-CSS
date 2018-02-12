@@ -6,32 +6,35 @@
     <link rel="stylesheet" href="fuentes.css">
     <title></title>
   </head>
-  <body>
+  <body id="body">
     <div id="Contenido">
 
       <header class="Cabezera">
-        <p>Contendio de Fotografia</p>
+        <p >Contendio de Fotografia</p>
         <ul class="Enlaces">
-          <li><a  href="inicio.html">Inicio</a></li>
+          <li><a class="activo" href="inicio.html">Inicio</a></li>
           <li><a  href="retrato.html">Retrato</a></li>
-          <li><a class="activo"  href="paisaje.html">Paisaje</a></li>
+          <li><a  href="paisaje.html">Paisaje</a></li>
         </ul>
       </header>
 
-      <section >
+      <section>
+        <div class="ImagenCentral">
+          <picture> <img class="Sombra-Efecto" src="img/Fondosjpg.jpg" alt=""></picture>
+        </div>
+        <article id="ContenidoPruebas">
         <div class="contenedor">
-
-        <div class="hijo img1"> <img  class="Sombra-Efecto" src="img/05.jpg" alt=""></div>
-        <div class="hijo img2"> <img  class="Sombra-Efecto"  src="img/05.jpg" alt=""></div>
-        <div class="hijo img3"> <img   class="Sombra-Efecto" src="img/05.jpg" alt=""></div>
-      </div>
-
-      <div class="contenedor">
-        <div class="hijo img4"> <img   class="Sombra-Efecto" src="img/05.jpg" alt=""></div>
-        <div class="hijo img5"> <img   class="Sombra-Efecto" src="img/05.jpg" alt=""></div>
-        <div class="hijo img6"> <img   class="Sombra-Efecto" src="img/05.jpg" alt=""></div>
-      </div>
+          <div class="hijo uno">
+      			<img class="Sombra-Efecto" src="img/05.jpg" alt="">
+      			<a href="#">Paisaje</a>
+      		</div>
+      		<div class="hijo dos" >
+      			<img class="Sombra-Efecto " src="img/niñas-retrato-precomunion.jpg" alt="">
+      			<a href="#">Retrato</a>
+        </div>
+        </article>
       </section>
+
 
       <footer id="ContedioPie ">
         <div class="columna1 colTamanio">
